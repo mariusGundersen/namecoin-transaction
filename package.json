@@ -1,0 +1,25 @@
+{
+  "name": "namecoin-transaction",
+  "version": "0.0.1",
+  "description": "Create namecoin transactions",
+  "main": "main.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "namecoin",
+    "cryptocurrency",
+    "transaction"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mariusGundersen/namecoin-transaction"
+  },
+  "author": "Marius Gundersen",
+  "license": "MIT",
+  "dependencies": {
+    "binstring": "^0.2.1",
+    "bs58": "^1.2.1",
+    "crypto-hashing": "^0.3.1"
+  }
+}
